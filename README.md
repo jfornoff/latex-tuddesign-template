@@ -3,10 +3,9 @@ This is a template repository to start using LaTeX, with TU Darmstadt corporate 
 
 ## How to set up
 
-1. Set your working directory in the Makefiles `WORKDIR`-variable
-2. Define your build steps in build.sh (Examples are given in the file)
-3. Insert your LaTeX files
-4. Done!
+1. Define your build steps in build.sh (Examples are given in the file)
+2. Insert your LaTeX files
+3. Done!
 
 ## How to use
 
