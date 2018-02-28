@@ -1,5 +1,5 @@
-#!/bin/bash
-# Here, you can define the steps needed to compile your LaTe
+#!/bin/sh
+# Here, you can define the steps needed to compile your LaTeX
 #
 # Examples:
 #
