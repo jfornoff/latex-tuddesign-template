@@ -1,0 +1,49 @@
+\documentclass[oneside, colorback,accentcolor=tud1c, 11pt]{tudreport}
+\usepackage[german]{babel}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{mdframed}
+\usepackage{courier}
+\usepackage{amsmath}
+
+\mdfsetup{nobreak=true}
+\mdtheorem{definition}{Definition}
+\mdtheorem{formula}{Formula}
+
+\usepackage{float}
+% Figure caption
+\usepackage{caption}
+\captionsetup[figure]{name=Figure}
+\captionsetup[table]{name=Table}
+
+% Paragraph style
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1em}
+
+\DeclareMathSizes{11}{14}{9}{9}
+\linespread{1.3}
+
+\newcommand{\getmydate}{%
+  \ifcase\month%
+  \or Januar\or Februar\or M\"arz%
+  \or April\or Mai\or Juni\or Juli%
+  \or August\or September\or Oktober%
+  \or November\or Dezember%
+  \fi\ \number\year%
+}
+
+\parskip=2mm
+
+\begin{document}
+\title{}{}
+\subtitle{}{}
+
+% Start of text output
+\maketitle
+
+% Content goes here
+\end{document}
