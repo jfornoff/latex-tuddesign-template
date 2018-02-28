@@ -7,6 +7,11 @@ This is a template repository to start using LaTeX, with TU Darmstadt corporate 
 2. Insert your LaTeX files
 3. Done!
 
+## Selecting a document template to use
+`./scripts/use.sh report`
+
+Copies the `tudreport` template to the `main.tex` file, which is built by `make`
+
 ## How to use
 
 `make`
